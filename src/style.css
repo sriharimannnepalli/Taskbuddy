@@ -170,7 +170,9 @@ header p {
 
 /* Clear button */
 .clear-btn {
-    background: linear-gradient(90deg, #ff3b2d, #d32f2f);
+    display: block;
+    margin: 30px auto;
+    background: linear-gradient(90deg, #00bcd4, #673ab7);
     color: white;
     border: none;
     padding: 14px 25px;
@@ -179,11 +181,14 @@ header p {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .clear-btn:hover {
-    background-color: #b71c1c;
+    background: linear-gradient(90deg, #673ab7, #00bcd4);
     transform: scale(1.1);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
 }
 
 /* Responsive design */
